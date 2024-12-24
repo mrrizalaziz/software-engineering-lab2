@@ -1,0 +1,15 @@
+server {
+    listen 80;
+ 
+    # Router for App 1
+    location /app1/ {
+         root  /usr/share/nginx/html;
+         index index.hmtl;
+ }
+
+ #Router for App2
+    location /app2/ {
+         root  /usr/share/nginx/html;
+         index index.hmtl;
+ }
+}
